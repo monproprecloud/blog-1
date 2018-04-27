@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "https://spokorsk.github.io/blog.github.io/" 
+baseurl = "https://spokorsk.github.io/blog.github.io/"
 builddrafts = false
 canonifyurls = false
 languageCode = "fr-FR"
@@ -46,7 +46,7 @@ email = "you@example.com"
 
 ## Extras
 [params.extra]
-copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+copyright = "© 2018. Sébastien Pokorski. [Tout droits Réservés(http://creativecommons.org/licenses/by/4.0/)."
 poweredby = true
 highlightjs = true
 
