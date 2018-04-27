@@ -1,0 +1,51 @@
+baseurl = "http://monblog.monproprecloud.com/"
+languageCode = "fr-FR"
+title = "Mon blog pour noter tout"
+theme = "HugoMDL"
+MetaDataFormat = "yaml"
+
+copyright = "Creative Commons Attribution-ShareAlike 4.0 International License."
+
+[Author]
+  name = "Sébastien Pokorski"
+  email = "spokorski@protonmail.fr"
+[permalinks]
+	page = "/:year/:month/:title/"
+	about = "/:filename/"
+
+[params]
+  author = "Sébastien Pokorski"
+	RSS = "index.xml"
+  avatar = "/images/avatar.png"
+  background = "/images/background.jpg"
+  description = "Toutes les notes qui risquent de me servir" #meta description
+  image = "/images/avatar-192x210.png" #for frontpage profile card
+  mdlPrimary = "grey"
+  mdlSecondary = "orange"
+  website = "www.monproprecloud.com"
+  email = "spokorski@protonmail.com"
+  twitter = "https://twitter.com/spokorski"
+  github = "https://github.com/spokorski/"
+  linkedin = "https://linkedin.com/in/ébastien-pokorski-1a658829/"
+  facebook = "https://facebook.com/spokorski/"
+  copyrightyear = "2018"
+  frontpageposts = 3 #number of post cards to display on frontpage
+	mailto = "Avez vous des choses à me dire ?"
+
+# Fully customizable header menu
+[[menu.main]]
+  name = "Accueil"
+  url = "/"
+  weight = -200
+[[menu.main]]
+  name = "Articles"
+  url = "/articles/"
+  weight = -180
+[[menu.main]]
+  name = "Projets"
+  url = "/projets/"
+  weight = -160
+[[menu.main]]
+  name = "A Propos"
+  url = "/apropos/"
+  weight = -140
